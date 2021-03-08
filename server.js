@@ -14,7 +14,7 @@ app.use(express.static(__dirname + "/public"));
 
 //set routes
 
-require('./routes/routesAPI')(app);
+require('./routes/routesAPI');
 
 
 // const routesHTML = require("./routes/routesHTML");
