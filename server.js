@@ -13,19 +13,9 @@ app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 
 //set routes
+require('./routes/request')(app);
 
-require('./routes/routesAPI');
-
-
-// const routesHTML = require("./routes/routesHTML");
-
-// app.use("/", routesHTML);
-
-// const routesAPI = require("./routes/routesAPI");
-
-// app.use("/api", routesAPI);
-
-//Port listener
-app.listen(PORT, () =>
-    console.log(`Example app listening on port ${PORT}!`),
-);
+//listener
+app.listen(PORT, function() {
+    console.log("App listening on PORT: " + PORT);
+});
