@@ -1,7 +1,5 @@
-const db = require("../db/db");
-const express = require("express")
-const fs = require(`fs`);
-const path = require(`path`)
+const fs = require('fs');
+const path = require('path');
 
 module.exports = app => {
     //reading the db.json file
