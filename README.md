@@ -22,6 +22,12 @@ This application uses an express backendtp save and retrieve data from a JSON fi
 ## Live Link
 * Link: [Heroku]()
 
+## Quick Look
+![Screenshot 2021-03-26 142753](https://user-images.githubusercontent.com/73044038/112684076-811acb00-8e40-11eb-95ca-56257aac564b.png)
+
+![Screenshot 2021-03-26 143003](https://user-images.githubusercontent.com/73044038/112684077-81b36180-8e40-11eb-9108-9c22e8e82291.png)
+
+
 
 
 
